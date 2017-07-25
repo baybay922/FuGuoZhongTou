@@ -1,0 +1,63 @@
+/* CSS Document */
+@charset "utf-8";
+@import url(base.css);
+.container{width:100%; height:100%; padding:0; margin:0;}
+/*banner部分*/
+.f-banner{width:100%; height:474px;}
+.slider{margin:0 auto;width:100%;height:474px;position:relative;z-index:0;}
+.sliderContent{float:left;width:100%;height:474px;clear:both;position:relative;overflow:hidden}
+.sliderArrows a{display:block;text-indent:-9999px;outline:none;z-index:50;background:url(../images/foot.png) no-repeat;width:42px;height:104px;position:absolute;top:50%;margin-top:-34px;opacity:0.5;}
+.prev{background-position:0 0;left:8%;}
+.prev:hover{background-position:0 0px}
+.next{right:8%;background-position:-55px 0!important;}
+.next:hover{background-position:-55px 0;}
+.sliderContent .item{position:absolute;width:100%;height:474px;background:#fff;text-align:center}
+.sliderBullets{position:absolute;bottom:20px;left:48.5%;z-index:50;margin-left:-45px}
+.sliderBullets a{display:block;outline:none;width:10px;height:10px;border-radius:5px;text-indent:-9999px;margin-right:20px;background:#fff;float:left;cursor:pointer;}
+.sliderBullets .active{background:#ffc200;}
+.sliderContent a{outline:none}
+.slider a{color:#fff}
+.slider a img{border:none}
+/*优秀的团队、高品质合作、严格的风控*/
+.f-item{width:1200px; margin:110px auto 110px;}
+.f-item dl{width:300px; float:left; text-align:center;}
+.f-item dl:first-child{margin-left:150px;}
+.f-item dl:nth-child(3){margin-right:150px;}
+.f-item dl dd:nth-child(2){color:#231f20; font-size:22px; margin:25px 0 20px;}
+.f-item dl dd:nth-child(3){color:#231f20; font-size:17px;}
+/*经营项目*/
+.f-projectBox{width:100%; height:590px; background:#f1f3f5;}
+.f-project{width:1200px; margin:0 auto; position:relative; z-index:0;}
+.f-icon{position:absolute; width:0px; height:0px; line-height:0px; border-top:130px solid #ffc200; border-left:130px solid #f1f3f5; border-right:130px solid #f1f3f5;
+left:39.2%; z-index:-1;}
+.f-project p{text-align:center;}
+.f-project p:nth-child(2){font-size:24px; color:#fff; padding:20px 0 10px;}
+.f-project p:nth-child(3){font-size:15px; color:#231f20;}
+.f-projectStep{width:1200px; margin:120px auto;}
+.f-projectStep dl{width:240px; float:left; text-align:center;}
+.f-projectStep dl dd{color:#0b1b39; font-size:20px; margin-top:30px;}
+/*关于我们*/
+.f-aboutus{width:100%; height:709px; background:url(../images/aboutusBj.png) no-repeat center;}
+.f-aboutusMain{width:1033px; height:450px; margin:0 auto; background:#fff url(../images/aboutFrame.png) no-repeat center; padding:30px; opacity:.5;}
+.f-aboutusMain p:first-child{text-align:center; font-size:24px; color:#0b1b39; margin:65px 0 0;}
+.f-aboutusMain p:nth-child(2){font-size:16px; color:#919191; text-align:center}
+.f-aboutusMain p:nth-child(3) ,.f-aboutusMain p:nth-child(4) ,.f-aboutusMain p:nth-child(5){font-size:16px; color:#0b1b39; padding:0 50px; line-height:35px;}
+.f-aboutusMain p:nth-child(6){}
+.f-aboutusMain p:nth-child(6) a{margin-right:50px; text-align:right; display:block; width:98px; height:30px; line-height:30px; font-size:14px; border-radius:20px; 
+	text-align:center; background:#ca8922; color:#fff; float:right; margin-top:20px;}
+/*新闻中心*/
+.f-newsCenter{width:1200px; margin:0 auto;}
+.f-newsCenter .f-title-p1{font-size:24px; color:#ca8922; text-align:center; margin-top:60px;}
+.f-newsCenter .f-title-p2{font-size:16px; color:#231f20; text-align:center; margin:5px 0 50px;}
+.f-newsCenter .f-newsLe ,.f-newsCenter .f-newsRi{width:500px; float:left; margin:0; border-right:1px solid #dadfe5; padding:0 50px;}
+.f-newsCenter .f-newsRi{width:499px; border-right:0;}
+.f-newsCenter .f-newsLe p,.f-newsCenter .f-newsRi p{font-size:18px; color:#6c788c; text-align:left; line-height:35px;}
+.f-newsLe span ,.f-newsRi span{float:left;}
+.f-newsLe span a ,.f-newsRi span a{color:#6c788c;}
+.f-newsLe font ,.f-newsRi font{float:right; color:#939eb2;}
+.f-more{float:right; margin:10px 0 60px;}
+.f-more a{float:right; margin-right:50px; font-size:14px; color:#ca8922;}
+
+
+
+

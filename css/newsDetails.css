@@ -1,0 +1,110 @@
+/* CSS Document */
+@charset "utf-8";
+@import url(base.css);
+body{background:;}
+
+/* title */
+.container{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.w_banner{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.w_banner img{
+	width: 100%;
+	height: auto;
+}
+.fontBox{
+	width: 320px;
+	height: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -40px 0 0 -160px;
+	text-align: center;
+	color: #fff;
+}
+.fontBox h2{
+	font-size: 30px;
+	font-weight: 200;
+}
+.fontBox p{
+	height: 30px;
+	line-height: 30px;
+	background:rgba(255,255,255,.3);
+	font-size: 20px;
+	font-weight: 200;
+	opacity: .8;
+	margin-top: 10px;
+}
+.content{
+	width: 1120px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.nav{
+	width: 1120px;
+    height: 80px;
+    line-height: 80px;
+    color: #c08019;
+    margin: 0 auto;
+}
+.nav a{
+	color: #c08019;
+}
+.Details{
+	width: 1120px;
+	height: auto;
+	border: 1px solid #d2d2d2;
+	margin: 0 auto;
+}
+.Details h2{
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+	color: #686868;
+	margin-top: 40px;
+}
+.timer{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	margin: 15px 0;
+	color: #888888;
+}
+.imgBox{
+	width: 1000px;
+	margin: 0 auto;
+}
+.imgBox img{
+	width: 100%;
+	height: 100%;
+}
+.Details article{
+	width: 1000px;
+	height: auto;
+	font-size: 14px;
+	line-height: 25px;
+	margin: 30px auto;
+	color: #9199a0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

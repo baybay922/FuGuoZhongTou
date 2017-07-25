@@ -1,0 +1,101 @@
+/* Businesspresentation.css */
+
+.container{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.w_banner{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.w_banner img{
+	width: 100%;
+	height: auto;
+}
+.fontBox{
+	width: 320px;
+	height: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -40px 0 0 -160px;
+	text-align: center;
+	color: #fff;
+}
+.fontBox h2{
+	font-size: 30px;
+	font-weight: 200;
+}
+.fontBox p{
+	height: 30px;
+	line-height: 30px;
+	background:rgba(255,255,255,.3);
+	font-size: 20px;
+	font-weight: 200;
+	opacity: .8;
+	margin-top: 10px;
+}
+.content{
+	width: 1120px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.nav{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	color: #c08019;
+}
+.nav a{
+	color: #c08019;
+}
+.news_list{
+	width: 100%;
+	height: 380px;
+	border-bottom:1px solid #d3d3d3;
+	position: relative;
+	margin-bottom: 65px;
+}
+.news_list h2{
+	width: 235px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: url(../images/title.png) no-repeat;
+	font-size: 22px;
+	color: #fff;
+}
+.dynamic{
+	width: 100%;
+	height: auto;
+	margin-top: 35px;
+}
+.dynamic li{
+	width: 335px;
+	float: left;
+	margin-left: 55px;
+}
+.dynamic li:first-child{
+	margin: 0;
+}
+.dynamic li h3{
+	display: block;
+	font-size: 20px;
+	line-height: 35px;
+	color: #686868;
+}
+.dynamic li p{
+	font-size: 14px;
+	color: #9199a0;
+	line-height: 25px;
+	margin-top: 20px;
+}
+.more_news{
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+	color: #ce9131;
+}
